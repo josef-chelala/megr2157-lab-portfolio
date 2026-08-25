@@ -1,13 +1,2 @@
-# A2 – Truss Stress Analysis
-
-## Objective
-
-
-## Analyze
-
-
-## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
-
-## Communicate
-
+# Design Rule For Additive Manufacturing
+Most printers perform well with walls that fall within typical ranges of 1 to 3 millimeters, but the ideal thickness depends on the specific material and process being used.
