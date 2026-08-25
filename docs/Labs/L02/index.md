@@ -7,5 +7,5 @@ The safe rule of thumb for overhangs are at a 45 degree angel. 3D printers are i
 [https://3dplatform.com/blogs/blog/printing-overhangs-beyond-45-degrees](https://sovol.eu/blogs/new/45-degree-rule-3d-printing-overhangs-support-quality-guide)
 
 
-What i learned
+# What I learned from teammate
 Layer adhesions is essential to allow the part to fall apart. It is dependent on the material and the temperature that is used for the print job.
