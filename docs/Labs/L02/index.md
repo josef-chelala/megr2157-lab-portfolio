@@ -121,7 +121,11 @@ When it gets close to top parts of the model, it again completely fills in each 
 Lastly, once finished, the printer head and bed begins to cool and the printer heads moves to the back right corner. Once the bed is cool enough, a person can take off the bed sheet and take the finish job off.
 <img width="3000" height="4000" alt="20260827_141553" src="https://github.com/user-attachments/assets/57a9be79-2b17-4168-a03e-a76523874cc7" />
 
-Below is the finished print job.
+Below is the finished print job. For other printers I have used, usually the bottom is much smoother than the top. This is because the bed itself was heated and usually the first layer is printed closer to the bed vs between layers. However, this printer seems to be really good since parts of the top surfaces seem to have come out almost as well at the bottom layer. Really only the thin highest layer seems to have issues and that is likely since it is just made of walls. Prusa seems to deserve its reputation.
+<img width="1080" height="1018" alt="20260828_231329" src="https://github.com/user-attachments/assets/3b71035e-b7e9-44da-80bb-15f02e3c749a" />
+<img width="1216" height="1185" alt="20260828_231259" src="https://github.com/user-attachments/assets/99c27c66-9d41-41ae-9bfa-266ed80d64b5" />
+
+
 
 <br>
 <br>
