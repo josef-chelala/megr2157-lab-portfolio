@@ -152,7 +152,7 @@ Also, when I normally do larger print jobs, I usually add a brim to the g-code. 
 
 <br>
 <br>
-Due to being late, I had no idea what was happening. Luckily another student explained it to me and pointed me towards the rubric on Canvas. Then the Professor helped me to set up the slicer to create the G-Code for the printer.
+Due to being late, I had no idea what was happening. Luckily, Austin explained it to me and pointed me towards the rubric on Canvas. Then the Professor helped me to set up the slicer to create the G-Code for the printer.
 
 <br>
 <br>
@@ -165,7 +165,7 @@ Prusa Slicer Program
 <br>
 Prusa Core One - PC_1 in lab
 <br>
-Help from the Professor and fellow student
+Help from the Professor and Austin
 <br>
 Charmander Squirtle and Bulbasaur Pixel Art by RichOfRivia - https://www.printables.com/model/1332536-charmander-squirtle-and-bulbasaur-pixel-art
 <br>
