@@ -62,6 +62,8 @@ The adaptive cubic infill is a dynamic infill that [changes its density dependin
 ## Preprocessor and Printing
 ### Build Orientation
 I chose to lay my model on the flattest side of the part, which so happens to also give the best layer lines. The general rule of thumb when 3D printing objects is to lay it on its flattest surface. For one, it reduces the amount of supports needed or just makes them flat out unnecessary. Also it gives more surface area connected to the bend which allow better adhesion. [Orientation also affects where layering will occur, so it should also be based on how the loads will be applied to the print job](https://www.aprios.com/insights/optimize-part-orientation-get-the-best-results-from-your-3d-prints). If a compressive force is applied, its better to have the top of stacked layers face the force. If in tension, its better to have the layers go along with the force. Also, visually, top and bottom layers will look better than on the sides, so its best to have the face that will be most looked at as the top in cases like my model
+
+
 ### Scale
 After not correctly scaling size of the image in SolidWorks, I ended up having a comically large model in the slicer. To fix this, I simply divided the desired length of the object I wanted (a little lower than 1.5in to ensire I fit the stipulations) and divided it by the measured length I took in SolidWorks. This gave me about 1/90th of a scale, which is about 1.11%. I set this percentage into the scale section in the slicer and I was able to be within my desired dimensions.
 
@@ -71,24 +73,35 @@ I decided to switch to the Gyroid fill pattern because I instantly fell in love 
 
 ### Wall Thickness Choice
 #### Why does it matter?
-As the professor taught us in class, wall thickness can positively affect material properties of the object, such as bending and stiffness further than infills can while also making surfaces of the part look better. The cost is that it increases the weight. Also, it might be completely unnecessary to have the extra strength from the increased  walls if it will not be facing serious enough loads. At that point, it may just was materials, time, and money.
+As the professor taught us in class, wall thickness can positively affect material properties of the object, such as bending and stiffness further than infills can while also making surfaces of the part look better. The cost is that it increases the weight. Also, it might be completely unnecessary to have the extra strength from the increased  walls if it will not be facing serious enough loads. At that point, it may just waste materials, time, and money.
 #### My Choice
-With permission from the professor, I kept the wall thickness at the default of 2. In one way, this choice already completely fills in the branches of the symbol, so a decrease in the walls could make the part significantly weak in those areas. Also, the center of the symbol barely has any infill support, so an increase might just make the infill useless which leads to problems with answering this assignment. Plus, an increase in wall size is not necessary for such a small part that will only be a display, meaning it wont face any serious loads.
+With permission from the professor, I kept the wall thickness at the default of 2. In one way, this choice already completely fills in the branches of the symbol, so a decrease in the walls could make the part significantly weak in those areas. Also, the center of the symbol barely has any infill support, so an increase might just make the infill useless which leads to problems with answering this assignment. Plus, an increase in wall size is not necessary for such a small part that will only be a display, meaning it won't face any serious loads.
 
 
 ### Additional Choices
-Due to how thin each member of the symbol was, I decided that it was necessary to add a brim so that there was less of a chance of a first layer failure
+Due to how thin each member of the symbol was, I decided that it was necessary to add a brim so that there was less of a chance of a first layer failure. As recommended by my Professor, I kept the number of brims to two. This is because the printed model would be rather small, so only two are necessary to keep the model stuck to the bed. Additionally, I enabled ironing, which smooths out the top layer by moving the hotend right on top of the last layer one the printing is finished. 
 
 ### Failure of First Print Job Attempt
-The first printer I used in the Lab was PC_9. Immediately after it started to calibrate, I knew that this printer had issues. It kept failing for several minutes as it tried to level the bed. After the printing began, I went away for a moment, and came back to find that the first layer completely failed. It seems that the printer was clogged from the start, because there was no brim or first layer. Three seconds after I realized what had happened, it then started to spew out PLA. Instead of taking a video to document this, I decided it would be wise to just immediately stop the print. Below is the result of the Failure
+The first printer I used in the Lab was PC_9. Immediately after it started to calibrate, I knew that this printer had issues. It kept failing for several minutes as it tried to level the bed. After the printing began, I went away for a moment, and came back to find that the first layer completely failed. It seems that the printer was clogged from the start, because there was no brim or first layer. Three seconds after I realized what had happened, it then started to spew out PLA. Instead of taking a video to document this, I decided it would be wise to just immediately stop the print. Below is the result of the failure.
 {INSETER FAILURE HEre}}
 
 
 
 ## Print
+### First Layers
+In this first video, the first layer is printing including the brims I added. As shown, the first layers was a massive success in comparison to the first try.
 
 
+### Half-way Through
+Next, this is halfway through the print. It seems some of the layers are not very flat and that was concerning me that it might fail again. Luckily, the finished print does not seem to show any major issues.  
 
+### Final Layers
+Lastly, this is the final couple layers of the print job along with the ironing. The ironing really helps the final part to look a lot better by making a much smoother top layer.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/98cgs2zsbrg?si=jiJZJs3dR2zoL_mi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Finished Print
+As seen in the below pictures, the model came out very well. The top is smooth and there does not seem to be any major aesthetic problems with the print. However, it seems that the brim setting may need to be modified since they were very hard to take off and seemed to meld too much with the first couple layers.
 
 
 
@@ -97,14 +110,17 @@ The first printer I used in the Lab was PC_9. Immediately after it started to ca
 When I used 3D Printers in the past, I really only used them to create displayable objects, so I never really made the connection between them and what I have been learning as an engineering student. It is interesting having my solid mechanics and material science knowledge being applied to this subject. For example, I learned that just how you orientate layers has a direct impact how the object will be able to face tension and compressive forces. Or how I have been seeing the direction relations between what I have learned with structure and infills in this class, with what I have been learning in Manufacturing Systems. Also, it was really cool learning that I can take simple images and directly use them as an outline in a sketch. I will definitely be using this moving forward for entertaining projects and even engineering endeavors.  
 
 ### Time
-As the weeks go by, it really shows that I doing more than I should be doing and making school harder than it needs to be. It has taken me 7 hours to complete this.
+As the weeks go by, it really shows that I am doing more than I should be doing and making school harder than it needs to be. It has taken me 7 hours to complete this.
 
 ### Consequences of Poor Structural Decisions  
-Yielding and then fracture may occur
+By creating a structural part that used my chosen infill percentage and and wall thickness, it would almost certainly lead to the yielding and then likely fracturing. 15% infill should only be used for 3D print jobs that will be put on display and not face any sort of stress, the generally rule of thumb that I have learned is that 50% should be the minimum for a functional part. The infill should even be increased further depending on how much forces and stress it will face, possibly even going from [90% to 100% if it is a safety critical part](https://jlc3dp.com/blog/3d-print-infill-structures). This goes for wall thickness as well, 2 walls are not going to cut it for structural parts. The amount of walls needed is dependent on the use case for the object, but generally it should be [5 or more walls](https://createit3d.co.za/blogs/news/how-many-walls-should-a-strong-3d-print-have) for structural parts. Walls are in general better than infills at facing normal and certainly bending stress, so it is possible that a part [should be printed to have 100% walls](https://www.sovol3d.com/blogs/news/wall-thickness-vs-wall-count-3d-printing-differences) depending on the function of the part. In the end, using my settings could lead to a serious accident or even death if they were used for a structural part.
+
 
 ### Known and Unknown Mistakes
+As mentioned before, the first time I tried printing my part, it failed to print out the first couple layers because the printer head got clogged. It seemed the clogging fixed itself, but the only way I could truly fix the issue was by canceling the print job and going to another printer. Sometimes, a hothead can get clogged for a fraction of a second, or there could be a movement error in the middle of a print. If something like clogging happens while doing an infill, it is possible that this can snowball into the first and next several infill layers to fail, leading to internal structural errors like voids. Most people do not stare at 3D print jobs that can last for hours and an indiviual can not see the inside of most completely prints without breaking it, so it is entirely possible to easily miss these misprints. So these structural errors are something that has to be taken into account while printing a structural part. One way to combat this is to use certain infill patterns like gyroid, where it has special properties to combat these issues such as [the next line layer could intersect with adjacent infill lines since each line layer is woven into one another](https://bigrep.com/posts/gyroid-infill-3d-printing/) 
 
-### Real Product 
+
+### Real Product
 
 ## Resources
 ### Websites
@@ -116,6 +132,10 @@ Yielding and then fracture may occur
 6. https://link.springer.com/article/10.1186/s44147-023-00273-x
 7. https://www.sciencedirect.com/science/article/abs/pii/S2352492818301600
 8. https://www.aprios.com/insights/optimize-part-orientation-get-the-best-results-from-your-3d-prints
+9. https://jlc3dp.com/blog/3d-print-infill-structures
+10. https://createit3d.co.za/blogs/news/how-many-walls-should-a-strong-3d-print-have
+11. https://www.sovol3d.com/blogs/news/wall-thickness-vs-wall-count-3d-printing-differences
+12. https://bigrep.com/posts/gyroid-infill-3d-printing/
 
 ### Physical Resources
 Prusa Core One+ - First used machine PC_9 then swapped to PC_14
