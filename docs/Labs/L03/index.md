@@ -70,8 +70,8 @@ For the orientation of the print, I chose to lay my model on the flattest side o
 ### Scale
 After not correctly scaling size of the image in SolidWorks, I ended up having a comically large model in the slicer.
 ![Inserted Picture](PicturesV2/14.png)
-To fix this, I simply divided the desired length of the object I wanted (a little lower than 1.5in to ensure I fit the stipulations) and divided it by the measured length I took in SolidWorks. This gave me about 1/90th of a scale, which is about 1.11%. I set this percentage into the scale section in the slicer and I was able to be within my desired dimensions.
-![Inserted Picture](PicturesV2/15.PNG)
+To fix this, I simply divided the desired length of the object I wanted (a little lower than 1.5in to ensure I fit the stipulations) and divided it by the measured length I took in SolidWorks. This gave me about 1/90th of a scale, which is about 1.11%. I set this percentage into the scale section in the slicer. The required dimensions were 1.5 in by 1.5 in by .5 in, and as shown in the screenshot below, I fit within those dimensions.
+![Inserted Picture](PicturesV2/15V2.PNG)
 
 
 
@@ -99,7 +99,8 @@ The first printer I used in the Lab was PC_9. Immediately after it started to ca
 
 
 ## Print
-After switching to printer PC_14 that also used PLA, I had far greater success. Excluding the heat up times, the print job itself only took 13 minutes like the slicer predicted, and I was able to finish the print before the end of class.
+After switching to printer PC_14 that also used PLA, I had far greater success. Excluding the heat up times, the print job itself only took 13 minutes like the slicer predicted, and I was able to finish the print before the end of class. All I had to do was export the g-code to the printer and finally finish all the setup.
+![Inserted Picture](PicturesV2/22.PNG)
 ### First Layers
 In this first video, the first layer is printing including the brims I added. As shown, the first layers was a massive success in comparison to the first try.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-1zlZicK7hc?si=_Ed02wUueXknyyeq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
