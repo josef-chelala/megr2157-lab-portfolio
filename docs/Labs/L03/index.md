@@ -1,4 +1,4 @@
-# A3 – [Topic]
+# Lab 3 – Design Something Small
 
 ## Design
 For this project, we were assigned to create a 3D printable CAD model and then print it. The main stipulations included that we were to not have any overhangs, so it inspired me to try to learn how to take an image and turn it into a printable model. The first day of this project, I was wearing a shirt from my favorite Manga series called Berserk, so I decided to create something from the series. I knew instantly what to make, since there is a very famous symbol from Berserk that would be timely to make. While searching through google images, I stumbled upon [this decal](https://www.minglewoodtrading.com/berserk-norse-rune-vinyl-decal-v4-viking-berserker-die-cut-sticker/). What I liked about it was that it had nice groves to the edges that I felt gives it more character.
@@ -61,39 +61,53 @@ The adaptive cubic infill is a dynamic infill that [changes its density dependin
 
 ## Preprocessor and Printing
 ### Build Orientation
-I chose to lay my model on the flattest side of the part, which so happens to also give the best layer lines. The general rule of thumb when 3D printing objects is to lay it on its flattest surface. For one, it reduces the amount of supports needed or just makes them flat out unnecessary. Also it gives more surface area connected to the bend which allow better adhesion. [Orientation also affects where layering will occur, so it should also be based on how the loads will be applied to the print job](https://www.aprios.com/insights/optimize-part-orientation-get-the-best-results-from-your-3d-prints). If a compressive force is applied, its better to have the top of stacked layers face the force. If in tension, its better to have the layers go along with the force. Also, visually, top and bottom layers will look better than on the sides, so its best to have the face that will be most looked at as the top in cases like my model
+For the orientation of the print, I chose to lay my model on the flattest side of the part, which so happens to also give the best layer lines. I did so by using the place on face button in Prusa Slicer and selecting one of the flat sides of the model. The general rule of thumb when 3D printing objects is to lay it on its flattest surface. For one, it reduces the amount of supports needed or just makes them flat out unnecessary. Also it gives more surface area connected to the bend which allow better adhesion. [Orientation also affects where layering will occur, so it should also be based on how the loads will be applied to the print job](https://www.aprios.com/insights/optimize-part-orientation-get-the-best-results-from-your-3d-prints). If a compressive force is applied, its better to have the top of stacked layers face the force. If in tension, its better to have the layers go along with the force. Also, visually, top and bottom layers will look better than on the sides, so its best to have the face that will be most looked at as the top in cases like my model.
+![Inserted Picture](PicturesV2/13.gif)
+
+
 
 
 ### Scale
-After not correctly scaling size of the image in SolidWorks, I ended up having a comically large model in the slicer. To fix this, I simply divided the desired length of the object I wanted (a little lower than 1.5in to ensire I fit the stipulations) and divided it by the measured length I took in SolidWorks. This gave me about 1/90th of a scale, which is about 1.11%. I set this percentage into the scale section in the slicer and I was able to be within my desired dimensions.
+After not correctly scaling size of the image in SolidWorks, I ended up having a comically large model in the slicer.
+![Inserted Picture](PicturesV2/14.png)
+To fix this, I simply divided the desired length of the object I wanted (a little lower than 1.5in to ensure I fit the stipulations) and divided it by the measured length I took in SolidWorks. This gave me about 1/90th of a scale, which is about 1.11%. I set this percentage into the scale section in the slicer and I was able to be within my desired dimensions.
+![Inserted Picture](PicturesV2/15.PNG)
+
 
 
 ### Infill Choice
-I decided to switch to the Gyroid fill pattern because I instantly fell in love with it when it was first showed in class. I love the look of it, how it is generated, and lastly that is actually fairly strong and useful unlike other interesting looking infill patterns.
+I decided to switch to the Gyroid fill pattern because I instantly fell in love with it when it was first showed in class. I love the look of it, how it is generated, and lastly that its actually very strong and useful unlike other interesting looking infill patterns. 
+![Inserted Picture](PicturesV2/16.gif)
+
 
 ### Wall Thickness Choice
 #### Why does it matter?
 As the professor taught us in class, wall thickness can positively affect material properties of the object, such as bending and stiffness further than infills can while also making surfaces of the part look better. The cost is that it increases the weight. Also, it might be completely unnecessary to have the extra strength from the increased  walls if it will not be facing serious enough loads. At that point, it may just waste materials, time, and money.
 #### My Choice
 With permission from the professor, I kept the wall thickness at the default of 2. In one way, this choice already completely fills in the branches of the symbol, so a decrease in the walls could make the part significantly weak in those areas. Also, the center of the symbol barely has any infill support, so an increase might just make the infill useless which leads to problems with answering this assignment. Plus, an increase in wall size is not necessary for such a small part that will only be a display, meaning it won't face any serious loads.
+![Inserted Picture](PicturesV2/17.PNG)
 
 
 ### Additional Choices
 Due to how thin each member of the symbol was, I decided that it was necessary to add a brim so that there was less of a chance of a first layer failure. As recommended by my Professor, I kept the number of brims to two. This is because the printed model would be rather small, so only two are necessary to keep the model stuck to the bed. Additionally, I enabled ironing, which smooths out the top layer by moving the hotend right on top of the last layer one the printing is finished. 
+![Inserted Picture](PicturesV2/18.PNG)
 
 ### Failure of First Print Job Attempt
 The first printer I used in the Lab was PC_9. Immediately after it started to calibrate, I knew that this printer had issues. It kept failing for several minutes as it tried to level the bed. After the printing began, I went away for a moment, and came back to find that the first layer completely failed. It seems that the printer was clogged from the start, because there was no brim or first layer. Three seconds after I realized what had happened, it then started to spew out PLA. Instead of taking a video to document this, I decided it would be wise to just immediately stop the print. Below is the result of the failure.
-{INSETER FAILURE HEre}}
+![Inserted Picture](PicturesV2/19.PNG)
 
 
 
 ## Print
+After switching to printer PC_14 that also used PLA, I had far greater success. Excluding the heat up times, the print job itself only took 13 minutes like the slicer predicted, and I was able to finish the print before the end of class.
 ### First Layers
 In this first video, the first layer is printing including the brims I added. As shown, the first layers was a massive success in comparison to the first try.
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-1zlZicK7hc?si=_Ed02wUueXknyyeq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Half-way Through
 Next, this is halfway through the print. It seems some of the layers are not very flat and that was concerning me that it might fail again. Luckily, the finished print does not seem to show any major issues.  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GqHuZjuR5sc?si=HYgG4KB26m8znrMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### Final Layers
 Lastly, this is the final couple layers of the print job along with the ironing. The ironing really helps the final part to look a lot better by making a much smoother top layer.
@@ -101,7 +115,9 @@ Lastly, this is the final couple layers of the print job along with the ironing.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/98cgs2zsbrg?si=jiJZJs3dR2zoL_mi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Finished Print
-As seen in the below pictures, the model came out very well. The top is smooth and there does not seem to be any major aesthetic problems with the print. However, it seems that the brim setting may need to be modified since they were very hard to take off and seemed to meld too much with the first couple layers.
+As seen in the below pictures, the model came out very well. The top is smooth and there does not seem to be any major aesthetic problems with the print. However, it seems that the brim setting may need to be modified since they were very hard to take off and seemed to meld too much with the first couple layers. I could put some work into cleaning the bottom of the print with some sand paper, but I do not have the time for that.
+![Inserted Picture](PicturesV2/20.PNG)
+![Inserted Picture](PicturesV2/21.PNG)
 
 
 
@@ -121,7 +137,7 @@ As mentioned before, the first time I tried printing my part, it failed to print
 
 
 ### Real Product
-
+One example could be 3D printed prosthetic limb. The different infill patterns, wall thicknesses, and materials must be carefully chosen to control its strength and weight. If the infill is too low or the walls are too thin, the prosthetic could break from general use over time or break instantly after just one fall, potentially causing injury. So it is important to make the right choices so the user doesn't have to keep buying the product over and over or to cause them injury. Also, it is important to keep in mind the cleanliness of the material chosen. The limbs will be used extensively, possible even during exercise, so the material that is chosen should take that into account. 
 ## Resources
 ### Websites
 1. Site where I got image from - https://www.minglewoodtrading.com/berserk-norse-rune-vinyl-decal-v4-viking-berserker-die-cut-sticker/
@@ -136,6 +152,9 @@ As mentioned before, the first time I tried printing my part, it failed to print
 10. https://createit3d.co.za/blogs/news/how-many-walls-should-a-strong-3d-print-have
 11. https://www.sovol3d.com/blogs/news/wall-thickness-vs-wall-count-3d-printing-differences
 12. https://bigrep.com/posts/gyroid-infill-3d-printing/
+<br>
+Additionally I used Youtube to host my videos.
+
 
 ### Physical Resources
 Prusa Core One+ - First used machine PC_9 then swapped to PC_14
@@ -145,3 +164,5 @@ PLA
 GIMP
 SolidWorks
 PrusaSlicer
+DaVinci Resolve video editor
+
