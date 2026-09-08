@@ -7,7 +7,7 @@ For this project, we were assigned to create a 3D printable CAD model and then p
 
 
 Next, I imported the picture into the picture editing program GIMP. Once there, I simply turned the image into black and white then isolated cut the background around it out. I did this because (as seen in the above picture) they added a strange background and it just made the image too big, and luckily this actually made my job easier later. The problem is that I later found out that leaving the background out caused issues in SolidWorks, so I simply exported it as a jpg which brought a simple one back.
-![Found Decal](PicturesV2/2V2.PNG) ![Found Decal](PicturesV2/3.PNG)
+![Found Decal](PicturesV2/2.PNG) ![Found Decal](PicturesV2/3.PNG)
 
 After I initially imported the image into SolidWorks, I realized that it could be a painstaking task to manually outline the image. Therefore, I tried searching online if there was anyway to automate the process, and luckily SolidWorks does have it. It is an add-on called Autotrace, pretty on the nose. For the next couple steps [I followed this website](https://www.goengineer.com/blog/solidworks-autotrace-tool-tutorial) to just get it set up. To start, and after opening SolidWorks, I want to the top of the screen and then went from Tools → Add-Ins. Once it opened the Add-Ins manager. I scrolled down and check marked the box next to Autotrace. Lastly, I restarted SolidWorks.
 ![Autotrace setup](PicturesV2/4.png) ![Autotrace setup](PicturesV2/5.png)
