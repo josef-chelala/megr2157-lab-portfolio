@@ -1,4 +1,4 @@
-# L4 – Benchmark a Parameter
+# Lab 4 – Benchmark a Parameter
 ## Objective
 The objective for this lab is to create our own benchmark artifact to test one of the labs 3D. We were recommended to test overhang angles, tolerances, and dimension calibration.
 
