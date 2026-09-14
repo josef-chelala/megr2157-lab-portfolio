@@ -119,7 +119,9 @@ After running the Slicer, I exported the g-code to a USB and attached it to the 
 </iframe>
 
 ### Printing 
-Luckily, there were no failures while printing for the first time. Adding a brim to the hollow cylinder might have affected the results of the tolerance test, so I was worried that not using a brim might causing it to fail. But it came out great. Below is a very speed up video of the print. Sadly I missed the last layer by a minute, but I at least got the bed moving down.
+Luckily, there were no failures while printing for the first time. Adding a brim to the hollow cylinder might have affected the results of the tolerance test, so I was worried that this might cause the first couple layers to fail. But it came out great. Below is a very speed up video of the print. Sadly I missed the last layers by a minute, but I at least got the bed moving down. The problem is that I didn't have a stand, so the video is extremely wobbly (ironically).
+
+
 
 ## Now that it is finished, what is the point of this artifact?
 The overall point of tolerance tests is to see how much a 3D printer affects the actual printed dimensions of a part vs the dimensions of the original part created in CAD software. This test I made in particular was originally only to see how much of a gap was needed between the main part (the hollow cylinder) and the variably sized holes. Also, I further deviated from other similair versions of this test since made the hollow cylinder open on both sides. This allowed me to also test the side that was touching the bed Later, I will realize there is a bit more than what I initially thought
@@ -127,6 +129,8 @@ The overall point of tolerance tests is to see how much a 3D printer affects the
 ## Outcome of the Artifact
 ### Testing the Artifact
 Finally, once the print finished and cooled down, I immediately tested which pole the hollow cylinder could fit into. As seen in the first half of the video below, I chose to start with the side that was on the print bed. To my surprise, it actually almost slide right into the exact dimensional pole. This told me that the part likely needed just a slightly bigger gap (and therefore a smaller diameter pole), so I was not surprised when it fit in the -.1mm hole. Further surprising, the exact same result happened with the opposite side. The last big surprise, as seen in the second half of the video, was that on a second attempt, both sides fitted into the exact hole.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w2wCQVreWRE?si=-NEHjpYei2S38lgX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Was my guess wrong then?
 At first glance, it seems that my guess was right about the printer bed side of the hollow cylinder, while being wrong about the opposite side. While this is technically true, I was still very surprised by this result that I further investigated it. I decided to measure the diameter of everything, and the result is seen below.
