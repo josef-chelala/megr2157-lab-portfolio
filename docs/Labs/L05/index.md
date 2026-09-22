@@ -1,4 +1,4 @@
-# A5 – Design a Snap Fit
+# Lab 5 – Design a Snap Fit
 ## Objective 
 For this weeks lab, we are to design and print a a snap fit assembly using two parts that snap together with elastic deformation.
 ## Modeling
