@@ -180,12 +180,19 @@ I used the PC_03 printer. Due to being incredibly busy, I was not able to witnes
 </div>
 
 ### Finished Print
+In the end, the print came out perfectly with no issues or deformations
+![Inserted Picture](Picture/30.jpg)
 
+### How does it fit, does it work?
+Luckily, I did not have to add any tolerances to the build. The added gap I gave with the bed was all that was needed. After testing, it works, but it is very finicky and requires a decent amount of force
 
+![Inserted Picture](Picture/31.jpg)
 
 ## Lessons Learned
 ### Learns
+Throughout this process, I learned that designing a functional snap fit requires much more than simply calculating the beam dimensions. One of the biggest lessons came from building on the previous lab, where I had forgotten to include the factor of safety when calculating the allowable bending stress. In this lab, I corrected that mistake by using a factor of safety of 2 and rearranging the bending-stress and displacement equations so that they were connected and produced compatible beam dimensions. I also learned that physical measurements and tolerances are just as important as the calculations. The LCD, PCB, buzzer, and red breadboard created several unusual geometric constraints that required me to measure clearances and modify the protrusion thickness and board gap instead of simply using the measured dimensions directly. Another important lesson was that a design that looks correct in CAD may still fail when physically printed. My first printed snap fit had beds that were too short, causing the red board to pass over them instead of resting on them. I fixed this by increasing the bed extrusion to 0.9 inches while maintaining enough space between the two sides for the beams to bend. This showed me that physical testing is necessary because CAD alone cannot always reveal how parts will interact.
 
+I also learned that fixing one problem can create another, so every design change needs to be evaluated for its secondary effects. After extending the bed, I became concerned that the longer, thinner section could break when the board was inserted, so I added a fillet between the beam and the bed to provide additional structural support while keeping some flexibility. The protrusion created another problem because its chamfer had to balance several conflicting requirements: it needed to guide the red board into the snap fit, prevent the protrusion from slipping underneath the PCB, maintain enough thickness, and avoid requiring excessive insertion force. The final 66-degree chamfer worked, but required more force than ideal, teaching me that interface geometry should be tested earlier in the design process. After printing, I also discovered small bumps on the protrusion tips that increased friction and made insertion more difficult. I fixed this by adding a 0.05 inch fillet to smooth the tips. Finally, when the SolidWorks mirror feature caused problems, I stopped trying to force the feature to work and instead created an assembly and used mates to position the second half of the snap fit. Overall, the process taught me that mechanical design is iterative with calculations establish a starting point, measurements determine the constraints, CAD develops the geometry, printing exposes real world problems, and testing reveals issues that can then be corrected. The mistakes in this project ultimately showed me the importance of designing for actual manufacturing and assembly rather than assuming that a mathematically correct CAD model will automatically function perfectly.
 ### Time Commitment
 Took about 11 hours to complete
 
