@@ -8,7 +8,7 @@
 The scissor linkage works by using bars that are connected together and cross over each other like an X. When the bottom of the linkage is pushed together, the bars move around their pivot points and the linkage gets taller. When the bottom moves back apart, the linkage folds back down. This allows the mechanism to lift things up and down while also being able to fold into a smaller space.
 #### Industries that Use It
 ##### Firefighting
-Firefighting is part of the emergency services sector industry of the government. When fires happen, sometimes people get stuck in a burning building because the way out is blocked. One way firefighters might help get them out is by using a scissor lift to get to higher floors of a building and to bring the victim down safely. 
+Firefighting is part of the emergency services sector industry of the government. [Scissor lifts can be used in firefighting to help in, well, fighting fires.](https://patents.google.com/patent/US7537087B2/en) When fires happen, sometimes people get stuck in a burning building because the way out is blocked. One way firefighters might help get them out is by using a scissor lift to get to higher floors of a building and to bring the victim down safely. They can also be used to get fire fighters to higher levels with a bunch of heavy equipment.
 ##### Construction
 The construction industry is massive due to the endless need for construction. Scissor lifts are used in a vast amount of ways to easily construct, add renovations, and safely move objects to multiple floors. [Their range of uses are greatly immense,](https://www.workplacepub.com/issues/2023/w0723.pdf) from ceiling work to fixing signs to fixing powerlines. They are so widely used because they provide a safe, efficient way to lift workers and materials straight up to and down from elevated work areas.
 ### Toggle Clamp
@@ -20,9 +20,9 @@ The construction industry is massive due to the endless need for construction. S
 A toggle linkage uses a handle that is connected to a few smaller links. When you push the handle down, the links move and straighten out. Once they go past a certain point, the linkage locks in place and holds the object tightly. When you pull the handle back up, the links move out of the locked position and the clamp opens. Overall, a toggle Clap is a simple way to hold something in place without having to keep applying force.
 #### Industries that Use It
 ##### Manfuacturing
-The manufacturing industry is one of societies most important industries, cause how else can you buy technology, furniture or most things a modern person uses in their daily life. Toggle Clamps can be used in manufacturing to hold pieces of metal, wood, or plastic in place while they are being cut, drilled, or welded. The linkage keeps the material from moving, which makes the work safer and more accurate. Once the work is finished, the handle can be lifted to quickly release the piece.
+The manufacturing industry is one of societies most important industries, cause how else can you buy technology, furniture or most things a modern person uses in their daily life. [Toggle Clamps can be used in manufacturing](https://www.sciencedirect.com/science/article/pii/S000785062500143X?via%3Dihub) to hold pieces of metal, wood, or plastic in place while they are being cut, drilled, or welded. The linkage keeps the material from moving, which makes the work safer and more accurate. Once the work is finished, the handle can be lifted to quickly release the piece.
 ##### Automotive
-In the automotive industry, toggle clamps can be used to hold car parts in the correct position while they are being assembled. For example, a clamp could hold a metal panel or another part in place while workers attach or weld it. This helps make sure the parts stay aligned during the assembly process.
+In the automotive industry, [toggle clamps can be used to](https://www.assemblymag.com/articles/93105-hold-it-whats-new-with-clamping-and-workholding-technology) hold car parts in the correct position while they are being assembled. For example, a clamp could hold a metal panel or another part in place while workers attach or weld it. This helps make sure the parts stay aligned during the assembly process.
 
 ## Design
 When we were told to design a working linkage mechanism, I instantly knew that I had to make a claw grabber like in the image below.
@@ -189,12 +189,15 @@ Another mistake I made was that I forgot compensate the change in the size of th
 ## Resources 
 ### Websites
 1. https://patents.google.com/patent/EP4511312A1/en
-2. https://www.workplacepub.com/issues/2023/w0723.pdf
-3. https://patents.google.com/patent/US20250223983A1/en
-4. https://www.dumyah.com/en/toys-and-games/sports-and-outdoor-play/blasters-and-foam-play/jaru-robot-claw-grabber-toy-long-plastic-reacher-robot-hand-grab-tool-kids-interactive-learning-hand-eye-coordination-toy-assorted-color
-5. https://www.thingiverse.com/thing:2750749
-6. https://pmc.ncbi.nlm.nih.gov/articles/PMC9867140/
-7. www.youtube.com
+2. https://patents.google.com/patent/US7537087B2/en
+3. https://www.workplacepub.com/issues/2023/w0723.pdf
+4. https://patents.google.com/patent/US20250223983A1/en
+5. https://www.sciencedirect.com/science/article/pii/S000785062500143X?via%3Dihub
+6. https://www.assemblymag.com/articles/93105-hold-it-whats-new-with-clamping-and-workholding-technology
+7. https://www.dumyah.com/en/toys-and-games/sports-and-outdoor-play/blasters-and-foam-play/jaru-robot-claw-grabber-toy-long-plastic-reacher-robot-hand-grab-tool-kids-interactive-learning-hand-eye-coordination-toy-assorted-color
+8. https://www.thingiverse.com/thing:2750749
+9. https://pmc.ncbi.nlm.nih.gov/articles/PMC9867140/
+10. www.youtube.com
 ### Software
 1. Solidworks
 2. Gimp
