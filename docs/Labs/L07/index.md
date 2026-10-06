@@ -1,6 +1,28 @@
 # A7 – Linkage Mechanisms
 
 ## Research
+### Scissor Linkage Lift
+[I found a scissor linkage lift patent published in 2025 on google patents.](https://patents.google.com/patent/EP4511312A1/en)
+![Inserted Picture](Pictures/Xgonnagiveittoya.jpg) 
+#### How It Works
+The scissor linkage works by using bars that are connected together and cross over each other like an X. When the bottom of the linkage is pushed together, the bars move around their pivot points and the linkage gets taller. When the bottom moves back apart, the linkage folds back down. This allows the mechanism to lift things up and down while also being able to fold into a smaller space.
+#### Industries that Use It
+##### Firefighting
+Firefighting is part of the emergency services sector industry of the government. When fires happen, sometimes people get stuck in a burning building because the way out is blocked. One way firefighters might help get them out is by using a scissor lift to get to higher floors of a building and to bring the victim down safely. 
+##### Construction
+The construction industry is massive due to the endless need for construction. Scissor lifts are used in a vast amount of ways to easily construct, add renovations, and safely move objects to multiple floors. [Their range of uses are greatly immense,](https://www.workplacepub.com/issues/2023/w0723.pdf) from ceiling work to fixing signs to fixing powerlines. They are so widely used because they provide a safe, efficient way to lift workers and materials straight up to and down from elevated work areas.
+### Toggle Clamp
+[I found a patent for a highly advanced version of a mechanism called a toggle clamp published in 2025.](https://patents.google.com/patent/US20250223983A1/en)
+![Inserted Picture](Pictures/figure1.png) 
+![Inserted Picture](Pictures/figure2.png) 
+
+#### How It Works
+A toggle linkage uses a handle that is connected to a few smaller links. When you push the handle down, the links move and straighten out. Once they go past a certain point, the linkage locks in place and holds the object tightly. When you pull the handle back up, the links move out of the locked position and the clamp opens. Overall, a toggle Clap is a simple way to hold something in place without having to keep applying force.
+#### Industries that Use It
+##### Manfuacturing
+The manufacturing industry is one of societies most important industries, cause how else can you buy technology, furniture or most things a modern person uses in their daily life. Toggle Clamps can be used in manufacturing to hold pieces of metal, wood, or plastic in place while they are being cut, drilled, or welded. The linkage keeps the material from moving, which makes the work safer and more accurate. Once the work is finished, the handle can be lifted to quickly release the piece.
+##### Automotive
+In the automotive industry, toggle clamps can be used to hold car parts in the correct position while they are being assembled. For example, a clamp could hold a metal panel or another part in place while workers attach or weld it. This helps make sure the parts stay aligned during the assembly process.
 
 ## Design
 When we were told to design a working linkage mechanism, I instantly knew that I had to make a claw grabber like in the image below.
@@ -8,7 +30,7 @@ When we were told to design a working linkage mechanism, I instantly knew that I
 ![Inserted Picture](Pictures/toy.png)
 
 ### Purpose 
-The purpose of a claw grabber is to grab items from a distance. By using x-cross linkages (creating a scissor chain) at the pins at the center of the line of symmetry, when puling together one end of the mechanism it extends the claw grabber and does the opposite when pulled apart. I chose to design it because it is a classic toy with an extremely obvious use of linkages to create a mechanism. It was not supposed to be very advanced, but I ended up biting more then I could chew.
+The purpose of a claw grabber is to grab items from a distance. By usingjm mmmmmmmmmmmmmmmmm7jnnnnnnnnnnnnnnnnnnnnnnn x-cross linkages (creating a scissor chain) at the pins at the center of the line of symmetry, when puling together one end of the mechanism it extends the claw grabber and does the opposite when pulled apart. I chose to design it because it is a classic toy with an extremely obvious use of linkages to create a mechanism. It was not supposed to be very advanced, but I ended up biting more then I could chew.
 
 ### Creating the CAD
 With my idea chosen, I looked at different toys online and online downloadable STL files from PrusaSlicer and Thingiverse for inspiration. That is when[ I found this design](https://www.thingiverse.com/thing:2750749) that used an extremely interesting way to turn an hourglass into a print in place pin for the grabber to use. The design was so cool that I decided that I had to base my creation on it. Essentially, one hourglass is made that has it thin center at a ratio of 2/3 of the height, and the internal angles of the top of bottom cone being about 60 degrees (2/3 ratio). Then an outer shell of the hourglass (starting from the smaller cone to a bit above the thin 2/3 center) is enclosed around it with a tolerance gap between them. This keeps them from touching, but since the outer shell goes above the thin center, the hourglass can not fall out of it and can only rotate. This allows the possibility to create a print in place pin. Then a linkage of the same height (to keep a balance) can be created by connecting one lower section of the linkage to the outer shell, and one upper half of the linkage to the top (2/3) section of the hourglass. This can be further built upon to connect the claw and handle bars. I must admit that I ended up having to take heavy inspiration of the model I found online because there was not much I could do to make it my own since there were not many parts. For that reason, I tried to only copy the dimensions of the joint itself. While for the dimensions of the center of the linkages and their angles, I didn't measure them, I eyeballed them once and from there I tried to figure out the rest on my own (like the way they connect, the claw and the handles).
@@ -146,6 +168,8 @@ The end result was a print time of two and half hours.
 ### Printing Video
 With the slicing finished, I took a usb and exported the gcode to it. Then I used the PC_03 printer to print my part. Below is a video of the process of the fit.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RjB3uOHVoBA?si=vi3N-RhYKZXRP3VX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Finished Print
 The final print finished without any issues and it works completely!
 ![Inserted Picture](Pictures/final.jpg)
@@ -164,10 +188,13 @@ Another mistake I made was that I forgot compensate the change in the size of th
 [To download the part file, click here.](https://drive.google.com/file/d/1JkNz5_27-ZqNpxAdzjSXrANO3Cw-1M_m/view?usp=sharing)
 ## Resources 
 ### Websites
-1. https://www.dumyah.com/en/toys-and-games/sports-and-outdoor-play/blasters-and-foam-play/jaru-robot-claw-grabber-toy-long-plastic-reacher-robot-hand-grab-tool-kids-interactive-learning-hand-eye-coordination-toy-assorted-color
-2. https://www.thingiverse.com/thing:2750749
-3. https://pmc.ncbi.nlm.nih.gov/articles/PMC9867140/
-4. www.youtube.com
+1. https://patents.google.com/patent/EP4511312A1/en
+2. https://www.workplacepub.com/issues/2023/w0723.pdf
+3. https://patents.google.com/patent/US20250223983A1/en
+4. https://www.dumyah.com/en/toys-and-games/sports-and-outdoor-play/blasters-and-foam-play/jaru-robot-claw-grabber-toy-long-plastic-reacher-robot-hand-grab-tool-kids-interactive-learning-hand-eye-coordination-toy-assorted-color
+5. https://www.thingiverse.com/thing:2750749
+6. https://pmc.ncbi.nlm.nih.gov/articles/PMC9867140/
+7. www.youtube.com
 ### Software
 1. Solidworks
 2. Gimp
