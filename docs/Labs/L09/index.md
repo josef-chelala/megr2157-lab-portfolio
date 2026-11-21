@@ -21,6 +21,8 @@ The parameter table summarizes the measurements and values used to develop our d
 | Slot Width | 2.95 | mm | testing | fit |
 
 
+THE FOLLOWING IS ALSO FOR THE Manufacturing - Test coupons SECTION OF THE GRADING RUBRIC
+
 At the beginning of the design process, we planned to use a clearance of 0.10 mm between the inserts and slots based on our initial research. However, after cutting and testing our coupons, we realized that some adjustments were necessary to improve the fit. Based on our testing, we found that increasing the slot dimension by 0.25 mm in the Y direction and decreasing it by 0.475 mm in the X direction produced the most consistent results. The Y-direction adjustment was reasonable because our material thickness measurements were fairly consistent across the sheets. This allowed us to increase the slot opening slightly to make assembly easier. For the X direction, we had to consider the material removed by the laser from both the slot and the insert. Because the kerf affected both connecting features, we reduced the slot length to compensate and create a more secure connection. One result we found interesting was that the slot dimensions that worked best during testing did not completely match our original clearance calculations. When considering the measured kerf, the theoretical clearance was approximately 0.28 mm, which was greater than our intended clearance of 0.20 mm. At the same time, reducing the slot length by nearly 0.50 mm suggested that the connection could be too tight in that direction. Despite these differences, the parts fit together well during our physical testing. This showed us that theoretical calculations do not always predict the exact results of the manufacturing process, making test cuts an important part of our design process. We will discuss these differences further in the report.
 
 
@@ -83,6 +85,32 @@ The following is all the parts put together to make:
 <img width="802" height="510" alt="image" src="https://github.com/user-attachments/assets/2fd96b6b-8456-4e83-9284-a590125d8c7f" />
 
 
+## Manufacturing 
+### Process Research
+
+Laser cutting is a manufacturing process that uses a high-powered laser beam to cut through materials like wood, acrylic, and cardboard. The laser follows a path created from a CAD design and uses heat to remove material. During this process, a small amount of material is removed, which is called kerf. This is important because it can affect how well the parts fit together. Laser cutting is a good manufacturing method because it is accurate, fast, and can produce detailed shapes. For our project, it was a good choice since we needed to cut multiple flat pieces for our model airplane and assemble them using slots.
+
+Compared to FDM 3D printing, laser cutting has some advantages and limitations. One major difference is speed, since laser cutting is usually faster for flat parts while FDM printing builds objects layer by layer, which takes more time. Another difference is the materials used. FDM printing mainly uses plastic filaments like PLA and ABS, while laser cutting works with sheet materials such as wood and acrylic. However, FDM printing is better for making complex 3D shapes, while laser cutting is mostly limited to flat designs that need to be assembled. Overall, laser cutting was the better option for our project because it allowed us to make the airplane parts quickly and test different slot dimensions to improve the fit.
+
+### Creating the Square and Coupon
+This part of the project was a headache. We went through a ton of different squares and coupons trying to find a consistent result. Once we just accepted what we had, a worker at the fab lab told us this was a lost cause and did not understand why we were doing this. He explained that this is all incredibly random because of the structure of wood and so finding accurate results is nonsensical. 
+
+To measure the kerf, we first designed and laser cut a square with dimensions of 25 mm x 25 mm. After cutting it, we used calipers to measure the actual dimensions of the square and compared them to the original dimensions from our design. By subtracting the measured values from the original 25 mm in both the X and Y directions, we were able to calculate the kerf. We also created test slots with different clearances to see which one would give us the best fit when assembling the parts. For this test, we decided to use three different fits: tight, target, and loose. This helped us compare the results and determine which clearance would work best for our final airplane design.
+
+#### How We Made Them
+Instead of just making 3D models, we decided to just make them within the inkspace program
+<img width="442" height="393" alt="Test Fits V1" src="https://github.com/user-attachments/assets/21221849-a503-4fad-8eee-d4d5dda9fdd6" />
+
+#### How We Cut Them
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c-uBDx4bq7c?si=3hryEov-dCtwe6AC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### The Immense Amount of Tests
+We essentially combined the two tests together to try and be more consistent, and there did seem to be a general trend like in some of the examples below, but it still would come out different each time we cut them out. We actually have a bag of these things from all our trials. That is also only one of the coupons we made. We thought it was us that was the problem, but it turned out this was just flawed from the start. Our results was previously explained earlier on this webpage.
+
+<img width="4283" height="5711" alt="Coupons and squares" src="https://github.com/user-attachments/assets/7e4fa922-93bd-4d0d-b265-df514d6dbe78" />
+
+
 ### Laser Process Record
 
 | Setting	| Kerf coupon	| Fit coupon | Final cut |
@@ -99,6 +127,22 @@ The following is all the parts put together to make:
 | Air assist on? Exhaust on? | both on | both on | both on |
 | How you set origin and alignment | top left | top left | top left |
 
+We used the default focus method since the TA recommended to try and keep the default settings since they were good enough
+
+### Layout for Plane Cutting
+
+
+## Lessons Learned
+
+When looking back at our measurements and the final results, we noticed that the calculations did not always match what happened during testing. Our measured kerf was around 0.1 mm, and if we had only used this value to calculate our slot dimensions, we would have ended up with different measurements than the ones we selected. For example, using a material thickness of 2.7 mm and our target clearance of 0.2 mm, the slot width would have been approximately 2.8 mm after accounting for the kerf. However, during testing we found that a slot width of 2.95 mm worked better. We also noticed that the thickness between our two wood sheets had a difference of about 0.07 mm, which could have affected the results. Using the smaller slot width might have improved the connection, but it also could have made assembly more difficult since some of our parts already required a little force to fit together.
+
+Another issue we noticed was with the length of the slots. Based on our calculations, the kerf from both the insert and slot should have created about 0.2 mm of clearance without needing to change the original slot length. Instead, our testing showed that reducing the length by 0.475 mm gave us a better fit. The interesting part was that this adjustment should have created an interference of around 0.275 mm, making the parts difficult to assemble. However, when we assembled our final airplane, most of the pieces connected without much effort. One area where we did experience some problems was the main wing. The width of the connection was acceptable, but the slot length was slightly too tight by approximately 0.1 to 0.2 mm. The wing was still able to connect to the fuselage, but the fit was not exactly what we wanted.
+
+This situation can also be related to Taguchi's Quality Loss Function, which is represented by the equation L(y) = k(y - m)^2. In this equation, y represents the actual result, m is the target value, and k is a constant related to the cost of being away from the target. The equation shows that the farther a measurement is from its intended value, the greater the quality loss becomes. For our airplane, a connection that is slightly too tight might not seem like a major problem. However, if we were producing 1,000 airplanes with the same issue, the total losses could become much more significant because every unit would have the same problem. This helped us understand why small dimensional errors matter in manufacturing.
+
+A real-world example of this would be a wooden puzzle that uses interlocking pieces. If the kerf is not properly considered during manufacturing, the pieces could end up being too loose or too tight. A tight connection could make the puzzle frustrating to assemble or even damage the pieces, while a loose connection could make them fall apart easily. This shows how an incorrect kerf measurement can affect the quality of a product and the experience of the customer.
+
+If we had the opportunity to make another cut, we would spend more time checking our measurements and testing the connections before cutting the final model. We would especially focus on the slot length because that was where we noticed the most unexpected results. We would also try slightly reducing the slot width to see if we could get closer to our intended 0.2 mm clearance. Our goal would be to make the airplane more stable while still allowing the pieces to be assembled without too much force.
 
 
 ### Process Log
@@ -120,3 +164,9 @@ The following is all the parts put together to make:
 | 10/26/26 | 6:44pm | 5 | Final assembly completed |
 | 10/26/26 | 11:28pm | 6 | Parameter and Laser Process Record completed |
 | 10/27/26 | 1:24pm | 6 | Documentation Completed |
+
+
+### Resources Used and Time Spent
+
+For this project, we used two wooden sheets that were approximately 12 x 12 inches, with a nominal thickness of 3 mm. The first sheet was mainly used to cut our test coupons and experiment with different fits, while the second sheet was used for the final airplane parts. From the beginning of the design process to the final assembly, we spent approximately 12 hours completing the project.
+
