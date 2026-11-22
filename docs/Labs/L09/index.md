@@ -1,7 +1,7 @@
 # Lab 9 – Laser Cutter
 
 ## Group Members
-I worked on this project with Joel Holder and Jack Brandon
+I worked on this project with Joel Holder and Jack Brandon. They were a massive help because I didn't realize we needed to work in a group for this project until the last minute. It was also a ton of fun working with them
 
 ## Design
 ### CAD Process
@@ -128,9 +128,25 @@ We essentially combined the two tests together to try and be more consistent, an
 | How you set origin and alignment | top left | top left | top left |
 
 We used the default focus method since the TA recommended to try and keep the default settings since they were good enough
+### Cutting Out the Plane
+#### Layout for Plane Cutting
+The main goal for our layout was to make sure the joint slots and pins would face in the same x and y direction that we tested and measured the kerfs/tolerances with. Otherwise, all that work would be for naught and the product would come out worse (honestly, like the TA said, it probably doesn't even matter much other than tight/looseness anyways due to the randomness). We also tried shortening the laser cutting time and to reduce the amount of wasted material. To do so, we simply tried to bring everything as close to one another as possible and place them in order so that they can be as compact towards a corner as possible.
 
-### Layout for Plane Cutting
 
+<img width="339" height="471" alt="Final Print Righted" src="https://github.com/user-attachments/assets/ad4a65c2-9aec-4ff8-ad0c-cb5b7bceb59c" />
+
+
+#### Cutting Settings
+We essentially kept everything at the default settings by the same TA's recommendation as mentioned earlier
+
+<img width="301" height="374" alt="Cut Settings" src="https://github.com/user-attachments/assets/44d52ebc-add4-4ae5-a314-09d31c414d91" />
+
+#### Cutting Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7pOXIvMQNrU?si=DkScHCkBr9CQDiI1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Edge quality and Air Assist
+We were surprised to see no issues with the edges, sure there is the charring that any wooden laser cut will have at the actual sides where it was cut, but it had no major issues. We decided on keeping the direct cutting sides because it 
 
 ## Lessons Learned
 
@@ -163,10 +179,9 @@ If we had the opportunity to make another cut, we would spend more time checking
 | 10/26/26 | 6:31pm | 5 | Final laser cut completed |
 | 10/26/26 | 6:44pm | 5 | Final assembly completed |
 | 10/26/26 | 11:28pm | 6 | Parameter and Laser Process Record completed |
-| 10/27/26 | 1:24pm | 6 | Documentation Completed |
+| 11/21/26 | 11:00 pm | 6 | Documentation Completed |
 
 
 ### Resources Used and Time Spent
 
-For this project, we used two wooden sheets that were approximately 12 x 12 inches, with a nominal thickness of 3 mm. The first sheet was mainly used to cut our test coupons and experiment with different fits, while the second sheet was used for the final airplane parts. From the beginning of the design process to the final assembly, we spent approximately 12 hours completing the project.
-
+For this project, we used two wooden sheets that were approximately 1 by 1 foot, with a nominal thickness of 3 mm. We tried asking the workers/TAs what the wood was made out of but they had no idea. The first sheet was mainly used to cut our test coupons and experiment with different fits, while the second sheet was used for the final airplane parts. We did not need to use any tools to put the part together because they all "snapped" in place. Cleaning up also did not require tools because the simplicity of our design did not make any mess. We spent 12 hours on the project itself and it took me an additional 6 hours to write this project down.
