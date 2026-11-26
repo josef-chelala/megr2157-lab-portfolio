@@ -32,6 +32,54 @@ Actually, it may be possible to use Turning, shown in the book, as a somewhat co
 
 
 
+SHRINKING AND EXPANSION
+
+
+In order to find a idea of the range for the right fit, I decided to make a "coupon" test find what was needed.
+
+## Coupon Test
+### Setup
+While talking with another student, they found that the 10 thou gap was a bit tight, so after discussing with some other students, I decided on starting the coupon with a 12 thou clearance. This seems to be way above the .2 to .85 thou gap recommended by the Handbook, however it seems that the dimensional accuracy of the the SLA printer is very off. Additionally, a website I found (which I genuinely lost, can not remember what I searched to find it, but doesn't matter since it was very wrong) recommended a 20 thou clearance gap for the fit. In the end, I decided to have the coupon have 12, 15, 20, and 25 thou clearances and to work form there (which was unnecessary as will be shown). Personally, at this point I had some doubts so I expected to be doing another test, however, the results were interesting. For the the testing shaft, I left the dimension .25 inches like the shaft I actually will use for the final print. I did this to keep a constant to work around instead of having to work with two varying dimensions. 
+
+
+### CAD Creation
+#### Coupon
+##### Base 
+To create the base of the coupon, I started by creating the four holes adding 12, 15, 20, and 25 thou to their respective .25 inch diameters. I aligned them vertically from their centers, and gave them .10 inch gaps between them  Then I built a rectangle around it, but enusring every circle had a minimum of .15 inch from the sides of the rectangle. Done so by having three sides of the rectangle being .15 inch from each side of the .275 inch circle and the last side from the .252 inch circle. Then I extruded it to .10 inches. The reason for the low amount of circles tested and the thinness of the coupon was to reduce time of the print as much as possible so others could use the machine.
+
+
+<img width="2225" height="887" alt="image" src="https://github.com/user-attachments/assets/b92c9b6d-86e0-41d4-9472-32fff513b5f2" />
+
+
+<img width="1831" height="583" alt="image" src="https://github.com/user-attachments/assets/e368c10a-05ad-4a65-b795-48dc6bbcef09" />
+
+
+Then I filleted the edges to further reduce the print time (based around keeping a .15 inch gap around the larger circle).
+
+
+<img width="1549" height="815" alt="image" src="https://github.com/user-attachments/assets/8fae63fc-c112-433f-85bf-af7104dde53c" />
+
+
+
+Lastly I cut a little triangle at one section to indicate which hole was what.
+
+
+<img width="1731" height="643" alt="image" src="https://github.com/user-attachments/assets/180cb616-2cc7-4592-9842-a89588b65bc0" />
+
+
+#### Testing Shaft
+Extremely simple, I just created a .25 inch diameter circle and extruded it to .4 inch.
+
+
+<img width="933" height="983" alt="image" src="https://github.com/user-attachments/assets/d07e0460-debd-419d-bc53-6b3178d9de41" />
+
+
+### Prefrom 
+Then I imported these models in Preform. A lot of people needed to make last minute prints, so I set the layer height to .1mm to reduce the time as much as possible. Due to .1mm layers, that meant I would likely face layer stepping on the holes and shaft which I thought could affect the results. So instead of using the 1-click button, I decided to lay their flat sides parallel to the surface of the bed, and then auto generate the supports and layout. This would also further reduce the amount of printing time due to the z axis having the biggest impact on print time.
+
+
+<img width="2460" height="1636" alt="Test_Shaft" src="https://github.com/user-attachments/assets/3697c5a3-83f1-4ab0-a4af-7f046996cfa4" />
+
 
 
 
