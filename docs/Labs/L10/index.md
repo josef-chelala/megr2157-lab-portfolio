@@ -93,6 +93,26 @@ Then I imported these models in Preform. A lot of people needed to make last min
 ### Printing
 To print, I used the HallowedDodo Form 4 printer. The print was luckily a success and taking off the supports was super easy. The only issue with the print was that the flat side that "laid flat" on the bed had a bit of a rough surface finish, but it didn't seem to affect any results.
 
+<img width="4000" height="3000" alt="20261102_170802" src="https://github.com/user-attachments/assets/efd7f919-8bf2-424e-85f0-fcc457ea8a7e" />
+
+
+### Taking off the Supports
+Before Curing I took off the supports.
+
+
+<img width="4000" height="3000" alt="20261102_171846" src="https://github.com/user-attachments/assets/76cefdf8-c6e2-4e73-bca2-a905d7d0ab0e" />
+
+
+### Final Result
+In the end, they both came out well, I only noticed issues where the nipples of the support touched the surface of the coupon.
+
+
+<img width="3000" height="4000" alt="image" src="https://github.com/user-attachments/assets/3c23b3ac-6ce2-4057-aa0a-bf99210d8454" />
+
+
+<img width="3000" height="4000" alt="image" src="https://github.com/user-attachments/assets/eaec1a70-8982-44dc-8a53-71913d07953e" />
+
+
 
 ### Testing
 Immediately, I jumped right into testing by simply inserting the shaft and twisting it around in each hole. Instantly, it became obvious that the 12 though clearance was by far the best one. It was able to spin freely like the others, but it had a much rougher time running freely along the shaft. Without measuring, it was clear I could actually decrease the clearance gap further for a better result.  
@@ -249,17 +269,27 @@ This is my fault for not being their, but the worker forgot to take pictures of 
 Immediately after it finished, we put it in the wash for 15 minutes.
 
 
+<img width="3000" height="4000" alt="image" src="https://github.com/user-attachments/assets/fb023510-689f-49a9-ae30-5f54f1532817" />
 
 
 ### Curing
 Curing was set to 30 minutes, but I later learned that clear should use a max of 15 (maybe not even necessary) but I didn't notice any poor results because of it.
 
+
+<img width="4284" height="5712" alt="IMG_2038" src="https://github.com/user-attachments/assets/80893454-f860-4853-9a01-71cb495b37a6" />
+
+
 ### Surface Finish, Accuracy and Deformations
 Overall, the print came out ok. The print appears to have come out with the same shapes I wanted it to meaning in general it was accurate. There seems to be no extreme deformations looking at it, as the shaft doesn't look bent at all and the shaft goes into the hole with resistance that feels like the spool bent internally. The shafts surface looked incredible right after curing, even after a while it looks really smooth and the flat sides of it are perfect with no noticeable issues by some miracle. However, the spool didn't come out as well. As seen below, the stepping is very noticeable on the sections that had no supports. For the sides that had supports, the surface is very rough and bumpy, with an obviously poor quality surface finish and slight deformations. It appears larger objects may have a harder time with printing long sides parallel to the printing bed. Keep in mind below that the pictures are after a ton of testing and then playing around with the spool.
 
 
+<img width="6120" height="8160" alt="image" src="https://github.com/user-attachments/assets/c256cab2-1892-410e-8fbe-ff50d3206a1e" />
 
 
+<img width="6120" height="8160" alt="image" src="https://github.com/user-attachments/assets/ad8a30ed-10cd-4dba-8427-6d00e0cab146" />
+
+
+<img width="6120" height="8160" alt="image" src="https://github.com/user-attachments/assets/e930267b-e53c-465f-b025-4196dce599d2" />
 
 
 ## Fit Test
@@ -280,6 +310,8 @@ As just stated, printer calibration is one of the main factors that will affect 
 For surface finish, I cannot accurately give a statement because I am unable to measure the hole all the way through, but I do think that the fact there was stepping from the spool being angled had a slight affect on the fits. From a proxy, when touching the smooth parts of the spool and then the stepping on the top of it, I can clearly feel a big difference. The stepping very obviously has more friction. Then just by looking at it with a naked eye, you can see the stepping, this certainly means there is an affect on the dimensional accuracy that was not accounted for in the coupon test. These will have an affect on the fit, but how much can be very little or noticeable.
 
 Curing will always have an affect because_________________________________________
+
+
 SHRINKING AND EXPANSION
 SHRINKING AND EXPANSION
 
