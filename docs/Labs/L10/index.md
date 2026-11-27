@@ -228,6 +228,25 @@ Finally, I had to decide on the layer height. During the time I was to print my 
 
 
 ## Post-Processing
+Thanks again to the help from the FabLab worker to help me with this section
+### Finished Print
+The print came out a success with no noticeable issues.
+
+<img width="4284" height="5712" alt="IMG_2036" src="https://github.com/user-attachments/assets/390d1e66-3a78-4faa-b10b-7a73ddc8c66f" />
+
+### Support Removal
+This is my fault for not being their, but the worker forgot to take pictures of this section. I hope the fact that I did show it for the coupon can make up for this.
+
+### Wash 
+Immediately after it finished, we put it in the wash for 15 minutes.
+
+
+### Curing
+Curing was set to 30 minutes, but I later learned that clear should use a max of 15 (maybe not even necessary) but I didn't notice any poor results because of it.
+
+### Surface Finish, Accuracy and Deformations
+Overall, the print came out ok. The print appears to have come out with the same shapes I wanted it to meaning in general it was accurate. There seems to be no extreme deformations looking at it, as the shaft doesn't look bent at all and the shaft goes into the hole with resistance that feels like the spool bent internally. The shafts surface looked incredible right after curing, even after a while it looks really smooth and the flat sides of it are perfect with no noticeable issues by some miracle. However, the spool didn't come out as well. As seen below, the stepping is very noticeable on the sections that had no supports. For the sides that had supports, the surface is very rough and bumpy, with an obviously poor quality surface finish and slight deformations. It appears larger objects may have a harder time with printing long sides parallel to the printing bed. Keep in mind below that the pictures are after a ton of testing and then playing around with the spool
+
 
 
 
@@ -236,5 +255,9 @@ Finally, I had to decide on the layer height. During the time I was to print my 
 ## Fit Test
 
 
-### Results
-The result was both a success and a failure. When first testing my part, I thought that the fits were too loose and I ended up failing. However, and hours later, I realized that it actually depended on the orientation shaft was inserted. On one side, the shaft is very loose and the spool could easily run along it. When inserted in the opposite direction, it worked as intended.
+### Does it slide smoothly but locate accurately?
+The surprising answer is that this was both a success and a failure. When first testing my part, I thought that the fits were too loose and I ended up failing. However, and hours later, I realized that it actually depended on the orientation the shaft was inserted. On one side, the shaft is very loose and the spool could easily run along it. When inserted in the opposite direction, it worked as intended. In this orentation, as seen below, it was able to rotate and locate without much force, but it was able to   I honestly have no idea how this is the case. One theory I have is that there are slight, imperceivable bumps on the shafts surfaces that cause more friction depending on how it interacts with the hole's stepping caused by the printed angle. This is something I can not figure out without being able to see inside the hole clearly, which is hard to do with the clear resin.
+
+
+
+
