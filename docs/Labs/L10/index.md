@@ -35,6 +35,11 @@ Actually, it may be possible to use Turning, shown in the book, as a somewhat co
 
 
 SHRINKING AND EXPANSION
+SHRINKING AND EXPANSION
+SHRINKING AND EXPANSION
+SHRINKING AND EXPANSION
+SHRINKING AND EXPANSION
+SHRINKING AND EXPANSION
 
 
 In order to find a idea of the range for the right fit, I decided to make a "coupon" test find what was needed.
@@ -235,17 +240,22 @@ The print came out a success with no noticeable issues.
 <img width="4284" height="5712" alt="IMG_2036" src="https://github.com/user-attachments/assets/390d1e66-3a78-4faa-b10b-7a73ddc8c66f" />
 
 ### Support Removal
-This is my fault for not being their, but the worker forgot to take pictures of this section. I hope the fact that I did show it for the coupon can make up for this.
+This is my fault for not being their, but the worker forgot to take pictures of this section. I hope the fact that I did show it for the coupon can make up for this. He instead took a picture right before he took it off the bed.
+
+<img width="5712" height="4284" alt="IMG_2037" src="https://github.com/user-attachments/assets/fe1b02e3-aaab-493e-b45e-34154b4e8f2e" />
+
 
 ### Wash 
 Immediately after it finished, we put it in the wash for 15 minutes.
+
+
 
 
 ### Curing
 Curing was set to 30 minutes, but I later learned that clear should use a max of 15 (maybe not even necessary) but I didn't notice any poor results because of it.
 
 ### Surface Finish, Accuracy and Deformations
-Overall, the print came out ok. The print appears to have come out with the same shapes I wanted it to meaning in general it was accurate. There seems to be no extreme deformations looking at it, as the shaft doesn't look bent at all and the shaft goes into the hole with resistance that feels like the spool bent internally. The shafts surface looked incredible right after curing, even after a while it looks really smooth and the flat sides of it are perfect with no noticeable issues by some miracle. However, the spool didn't come out as well. As seen below, the stepping is very noticeable on the sections that had no supports. For the sides that had supports, the surface is very rough and bumpy, with an obviously poor quality surface finish and slight deformations. It appears larger objects may have a harder time with printing long sides parallel to the printing bed. Keep in mind below that the pictures are after a ton of testing and then playing around with the spool
+Overall, the print came out ok. The print appears to have come out with the same shapes I wanted it to meaning in general it was accurate. There seems to be no extreme deformations looking at it, as the shaft doesn't look bent at all and the shaft goes into the hole with resistance that feels like the spool bent internally. The shafts surface looked incredible right after curing, even after a while it looks really smooth and the flat sides of it are perfect with no noticeable issues by some miracle. However, the spool didn't come out as well. As seen below, the stepping is very noticeable on the sections that had no supports. For the sides that had supports, the surface is very rough and bumpy, with an obviously poor quality surface finish and slight deformations. It appears larger objects may have a harder time with printing long sides parallel to the printing bed. Keep in mind below that the pictures are after a ton of testing and then playing around with the spool.
 
 
 
@@ -256,8 +266,43 @@ Overall, the print came out ok. The print appears to have come out with the same
 
 
 ### Does it slide smoothly but locate accurately?
-The surprising answer is that this was both a success and a failure. When first testing my part, I thought that the fits were too loose and I ended up failing. However, and hours later, I realized that it actually depended on the orientation the shaft was inserted. On one side, the shaft is very loose and the spool could easily run along it. When inserted in the opposite direction, it worked as intended. In this orentation, as seen below, it was able to rotate and locate without much force, but it was able to   I honestly have no idea how this is the case. One theory I have is that there are slight, imperceivable bumps on the shafts surfaces that cause more friction depending on how it interacts with the hole's stepping caused by the printed angle. This is something I can not figure out without being able to see inside the hole clearly, which is hard to do with the clear resin.
 
 
 
+## Lessons Learned 
+### What challenges arose in achieving the RC 2 fit?
+The biggest challenge was that there are an immense amount of variables with SLA to take in consideration when trying to have consistent, universal clearances for sliding fits. As in, it is heavily dependent on the machine used and how it was calibrated; the material used, the way and time post-processing was done; how the print was orientated, and so on and so fourth that might affect tolerances and therefore clearances. This meant that the only way to get within the clearance gap range was to take extra time to create a test coupon, try to orientate the actual print as close as possible to the test, and then use the same printer as the test and hope it comes out similarly. So essentially, the challenge is that you need to calibrate to your specific setup, and possibly recalibrate everytime a change is made, in order to get accurate fits.
 
+### Did surface roughness, printer calibration, or curing affect the fit?
+As just stated, printer calibration is one of the main factors that will affect a fit. If you try to use the same exact hole and shaft with the same clearances found for one printer, you will get a varying end result when you try to use it for another. Every printer and calibration will have its unique flaws and uncertainties. Furthermore, it goes without saying that a poorly calibrated and unkept machine will have way more issues with dimensional accuracy than the opposite setup. 
+
+
+For surface finish, I cannot accurately give a statement because I am unable to measure the hole all the way through, but I do think that the fact there was stepping from the spool being angled had a slight affect on the fits. From a proxy, when touching the smooth parts of the spool and then the stepping on the top of it, I can clearly feel a big difference. The stepping very obviously has more friction. Then just by looking at it with a naked eye, you can see the stepping, this certainly means there is an affect on the dimensional accuracy that was not accounted for in the coupon test. These will have an affect on the fit, but how much can be very little or noticeable.
+
+Curing will always have an affect because_________________________________________
+SHRINKING AND EXPANSION
+SHRINKING AND EXPANSION
+
+
+### How could you improve accuracy next time?
+One way to improve accuracy is to essentially measure the fits from this part with a specialized tool, and try to adjust a second iteration with this data (possibly repeating this). However, this might require trying to have the same setup over and over again if it has a large enough impact on this (ie angles orientation and machine calibrations). You could also just orientate the coupon I created, but it is likely better to do it with the model that was created.
+
+### Time Spent
+Creating the model and printing it took 7 hours and writing this report took 10 hours. 
+
+### Resources
+#### Physical
+1. Clear V5 Resin
+2. HiddenCod Printer
+3. Calipers
+4. Cellphone
+
+#### Software
+1. SolidWorks
+2. PreForm
+3. ScreenToGif
+
+#### Books, Websites, and Images
+1. Machinery’s Handbook
+2. Drill Image - https://fliphtml5.com/cvloa/pdtx/Design_of_Jigs%2C_Fixtures_and_Press_Tools_%28_PDFDrive_%29/107/
+3. 
