@@ -1,3 +1,5 @@
+# NOTE TO TA: I lost my caliper so I am wait for amazon to deliver a new one this Saturday. 
+
 # A10 – Lead Screw Translating System
 
 ## Research and Planning 
@@ -12,7 +14,7 @@ According to the Machinery’s Handbook, “RC 2 Sliding fits are intended for a
 <img width="1160" height="980" alt="image" src="https://github.com/user-attachments/assets/ed3055ff-4e60-437e-a5b5-a6d0d87747f7" />
 
 ### Limitations and My Design (Note to TA: Please Read Note at End of This Section)
-This week was (and the following weeks ahead are) incredibly busy. Other classes and other projects in this class were taking a bunch of my time. Also, I had two seperate personal projects that had to be finished in an unknowable but short amount of time otherwise I could have been locked out from doing them forever, so I did not want to take chances and put more focus into them. For that reason I had very little time to do this project. By the time I was able to do it, I realized that everyone was using the machines at the same time. This then became apparent that I likely only had one shot at printing my parts, if it failed, there was a very real possibility there would not be enough printers left for me to finish on time. For those reasons, I was ironically forced on an assignment that required more creativity to make a much simpler design than my previous projects in this course. To not screw others over and to not make any mistakes that would ruin the print, I needed to make something that would not be massively affected by using the lowest quality but fastest settings (such as .1mm layer heights). This led me to the idea of making a spool that can be used for fishing lines. Essentially, a fishing wire can be wrapped around it to store it without making a mess, but due to the RC 2 fit, the spool itself can be rotated to quickly wrap the line around it without having to wrap the wire itself. This would also do the opposite affect when pulling some line to use quickly, where I didn't have to unravel it slowly. Due to all surfaces being parallel and circular, I thought that it may be possible for me to side step having to put them at an angle that may worsen shaft and hole tolerances that a .1mm layer height may cause with stepping (later I further thought this was possible when my coupon succeeded without a hitch). For my choice of hole and shaft diameter, I needed a balance that would give me a low print time but also a decently large RC 2 clearance (since larger diameters gave larger clearances). Looking at the chart, I decided on .25 inches since it was right at the smaller side of the .24in - .40in row of the RC 2 chart. This would give me clearance gap (in thousandths of an inch) of .2 to .85 Below is the general design I was going for followed by the section of the previous RC chart for a .25 inch diameter. 
+This week was (and the following weeks ahead are) incredibly busy. Other classes and other projects in this class were taking a bunch of my time. Also, I had two seperate personal projects that had to be finished in an unknowable but short amount of time otherwise I could have been locked out from doing them forever, so I did not want to take chances and put more focus into them. For that reason I had very little time to do this project. By the time I was able to do it, I realized that everyone was using the machines at the same time. This then became apparent that I likely only had one shot at printing my parts, if it failed, there was a very real possibility there would not be enough printers left for me to finish on time. For those reasons, I was ironically forced on an assignment that required more creativity to make a much simpler design than my previous projects in this course. To not screw others over and to not make any mistakes that would ruin the print, I needed to make something that would not be massively affected by using the lowest quality but fastest settings (such as .1mm layer heights). This led me to the idea of making a spool that can be used for fishing lines. Essentially, a fishing wire can be wrapped around it to store it without making a mess, but due to the RC 2 fit, the spool itself can be rotated to quickly wrap the line around it without having to wrap the wire itself. This would also do the opposite affect when pulling some line to use quickly, where I didn't have to unravel it slowly. Due to all surfaces being parallel and circular, I thought that it may be possible for me to side step having to put them at an angle that may worsen shaft and hole tolerances that a .1mm layer height may cause with stepping (later I further thought this was possible when my coupon succeeded without a hitch). For my choice of hole and shaft diameter, I needed a balance that would give me a low print time but also a decently large RC 2 clearance (since larger diameters gave larger clearances). Looking at the chart, I decided on .25 inches since it was right at the smaller side of the .24in - .40in row of the RC 2 chart. This would give me clearance gap (in thousandths of an inch) of .2 to .85. Below is the general design I was going for followed by the section of the previous RC chart for a .25 inch diameter. 
 
 
 <img width="1378" height="1580" alt="image" src="https://github.com/user-attachments/assets/7c9b7108-f083-4c3d-97d7-01bc124c7bac" />
@@ -75,12 +77,157 @@ Extremely simple, I just created a .25 inch diameter circle and extruded it to .
 
 
 ### Prefrom 
-Then I imported these models in Preform. A lot of people needed to make last minute prints, so I set the layer height to .1mm to reduce the time as much as possible. Due to .1mm layers, that meant I would likely face layer stepping on the holes and shaft which I thought could affect the results. So instead of using the 1-click button, I decided to lay their flat sides parallel to the surface of the bed, and then auto generate the supports and layout. This would also further reduce the amount of printing time due to the z axis having the biggest impact on print time.
+Then I imported these models in Preform. A lot of people needed to make last minute prints, so I set the layer height to .1mm to reduce the time as much as possible. Due to .1mm layers, that meant I would likely face layer stepping on the holes and shaft which I thought could affect the results. So instead of using the 1-click button, I decided to lay their flat sides parallel to the surface of the bed, and then auto generate the supports and layout. This would also further reduce the amount of printing time of the coupon itself due to the z axis having the biggest impact on print time.
 
 
 <img width="2460" height="1636" alt="Test_Shaft" src="https://github.com/user-attachments/assets/3697c5a3-83f1-4ab0-a4af-7f046996cfa4" />
 
 
+![Inserted Picture](Gifs/Coupon.gif)
+
+### Printing
+To print, I used the HallowedDodo Form 4 printer. The print was luckily a success and taking off the supports was super easy. The only issue with the print was that the flat side that "laid flat" on the bed had a bit of a rough surface finish, but it didn't seem to affect any results.
+
+
+### Testing
+Immediately, I jumped right into testing by simply inserting the shaft and twisting it around in each hole. Instantly, it became obvious that the 12 though clearance was by far the best one. It was able to spin freely like the others, but it had a much rougher time running freely along the shaft. Without measuring, it was clear I could actually decrease the clearance gap further for a better result.  
+
+### Measuring
+When measuring, I was greatly surprised to find that the shaft was only a thou away from being exactly .25 inches. Ignoring the other holes since they were clearly unnecessary, I measured the 12 thou clearance hole to be ____. Possibly, solid cylindrical shafts have a lower tolerances than a hole for SLA? Either way this gave a clearance gap of ____. (when I tested weeks ago it was slightly above .85 thou, though I will try again once I get the caliper).
+
+
+
+
+
+
+## Project CAD Design
+
+### Creating the Spool
+#### Parameters
+In order to design a spool that would be able to easily control its dimensions, I setup the design that would allow easy edits using the below parameters. Finding the right size and thickness I wanted to ensure what I felt to be a rigid spool, I actually used the parameters a lot to try different combinations of thickness, size, and shaping. Additionally, I used it to allow easy modification of the clearance as well.
+
+
+<img width="1139" height="499" alt="image" src="https://github.com/user-attachments/assets/7ba6a4f6-6806-4a0e-be31-6e6d0830ed85" />
+
+
+<img width="1580" height="1044" alt="parameters" src="https://github.com/user-attachments/assets/9f61f353-154d-45c3-a2db-a14eec1780e8" />
+
+
+#### Creating the General Shape
+To create the first part of the spool, I essentially created a cylinder. I set its outer diameter to the "outer_diameter" parameter and the length to the "thick" variable. In the end I set them to 1.2 in and 1.15 in respectively. The later of which to compensate for the "flanges" of the spool and giving enough room for a lot of fishing lines. 
+
+
+<img width="947" height="967" alt="image" src="https://github.com/user-attachments/assets/61fb14bd-4c58-419f-9b0f-fb5104cbb742" />
+
+
+#### Slot for the Fishing Lines
+##### Creating a Center Plane
+To make the model more easy to control just through the parameters, my idea was to cut out the section for the fishing line and flanges was to create a center plane and then cut extrude from that plane two concentric circles. To create the plane I essentially used the reference geometry tool in SolidWorks to select both flat sides of the cylinder, this created the center plane I needed 
+
+
+<img width="1720" height="1142" alt="Plane" src="https://github.com/user-attachments/assets/4dca4dcb-2e08-4fb8-b4e5-0ac698b87141" />
+
+
+##### Sketching the Outline of Cut
+To create the cut, I simply created a sketch on the plane I just made sketch two concentric circles at the center axis of the cylinder. The larger one matching the outer diameter I decided on, and the smaller equaling the "inner_diameter" variable I created. In the end I decided on the .7in diameter since it gave the inner hollow cylinder strength and allowed the flanges to stick out enough for a large amount of wire. 
+
+<img width="1727" height="1303" alt="image" src="https://github.com/user-attachments/assets/444d7076-d713-46b0-b8f0-b4ba9af9f56a" />
+
+##### Cutting
+To cut out the slot, I simply cut extrude from both sides at the distanced determined by the variable "cut" which equals the length of the spool minus the desired thickness of both of the flanges I wanted equal, which were set to the variable "flange_thick". Since the flanges could face issues from bending since they stick out, I chose the make them .25 inches thick to ensure they wouldn't break. This in return meant the slot was cut out at .65 inches.
+
+
+<img width="1449" height="1157" alt="image" src="https://github.com/user-attachments/assets/15fe9a0d-6ce3-499c-8688-abb5ef39587e" />
+
+
+#### Creating the RC 2 Fit Hole
+To create the hole, I simply created a circle at the center one flat end of the spool, and then extrude cut it all the way through the spool. 
+"shaft_diameter" equaled the nominal diameter of the shaft, while the "clearance" gave the add clearance gap I wanted based on the coupon testing I did. The "hole_diameter" variable simply added these two together which I used for the hole I cut. Initially, I actually wanted to reduce the clearance gap to 10 thou since the coupon was right on the money for the clearance range. However, I went against my judgment after discussing it with other students. As explained later, I additional added another thou to it, bring it up to a 13 thou clearance, out of fear of the stepping from the SLA would affect the tolerances. In a strange twist of events, I ended up being right AND wrong about going against my belief that 10 thou would have been better
+
+
+<img width="1330" height="1115" alt="image" src="https://github.com/user-attachments/assets/c4669fee-de97-47a2-ac9a-e36022dca90e" />
+
+
+<img width="1491" height="979" alt="image" src="https://github.com/user-attachments/assets/bcbc5048-e53d-4e4c-bc86-c36c64b870c4" />
+
+### Creating the Shaft
+Creating the shaft was as easy as the test shaft I made for the coupon. Since leaving the test shaft at .25 inches was so successful to treat it at the nominal size and as a "constant", while taking into account that the coupon test was based on this diameter, I decided to stick with leaving the shaft at the nominal size. For the length, I wanted to give enough so that I could hold the shaft from both sides without touching the spool while also being able to shake it a bit to see how well the RC 2 fit came out. For that reason, I settled on the shaft being able to stick out .4 inches out of each side of the spool. Adding these lengths plus the length of the spool was 1.95inches, I decide I would just make it 2inches to keep it simply meaning they will stick out .425 inch instead.
+
+
+
+<img width="1183" height="583" alt="image" src="https://github.com/user-attachments/assets/bccf79fc-2969-448a-a39f-2ae2a56452b5" />
+
+
+### Final Assembly
+In the end, the CAD files worked out well giving the following assembly. Again, this does seem to be rather simple, but the professor seemed to not care at the time.
+##### Normal Assembly
+Notice the clearance gap in the model.
+
+
+<img width="911" height="829" alt="image" src="https://github.com/user-attachments/assets/eb040f04-cb00-4b18-96a6-e2084a33cdd1" />
+
+
+<img width="1137" height="1069" alt="image" src="https://github.com/user-attachments/assets/37393bbb-f7e6-4dd6-a323-83e11ee73090" />
+
+##### Exploded Assembly
+
+<img width="993" height="739" alt="image" src="https://github.com/user-attachments/assets/0d3c1725-5bbd-49d0-ae39-292c3a71cd03" />
+
+
+### Quick Summary
+So to sum up, my nominal size for the hole and shaft was .25 inches. I decided on .25 inches since it was right at the smaller side of the .24in - .40in row of the RC 2 chart. This would give me clearance gap (in thousandths of an inch) of .2 to .85. I needed a balance that would give me a low print time but also a decently large RC 2 clearance (since larger diameters gave larger clearances) to make it easier to succeed in falling in the range. To take into account for potential printing or curing variation and the actual tolerances I needed for the Form 4 SLA, I simply created a coupon to find what clearance gap I should shoot for. To "lessen" the amount of variables that I needed to take into account for, I simply left the shaft at the nominal diameter the same way I did with the coupon. As explained later, I ended up setting the tolerance/clearance to 13 thou instead of the 12 thou I got from the coupon, out of fear that printing at an angle for the spool would hurt the clearances.
+
+
+
+
+
+
+
+## Preprocessing
+### Machine Name
+I used the HiddenCod form 4 printer in the FabLab
+### Build Orentation and Supports
+#### Shaft
+For the shaft, I did the same thing as the test shaft, where I set it vertically so that there were not be any layer stepping along its length. Again, it was to try and reduce any possible issues with it affecting the clearance, and for this time, to stay consistent with the coupon test. Therefore, instead of using the 1-click button, I decided to lay one flat side of the shaft parallel to the surface of the bed, and then auto generate the supports (and later the layout). We were not expected to know how to apply these strange supports, so we were told to just keep them at the defaults and auto generate them.
+
+
+![Inserted Picture](Gifs/LongShaft.gif)
+
+#### Spool
+Originally, I was going to set the spool  vertical as well, however, the PreForm told me that the hole would face cupping issues if I did it this way. 
+
+
+<img width="1491" height="755" alt="image" src="https://github.com/user-attachments/assets/da7acb3c-5303-44a8-854c-a2b82c7eb2d8" />
+
+
+This threw an unknown variable into my print that worried me. Cupping can have a serious impact on the internal surface of the hole, resulting in a whole range of issues from poor surface finish to deformations to it even rupturing. That meant I had to use the 1 click tool to try and find an orientation that would not cause cupping. Which in return meant I now had to put it at an angle. Since, as will be explained in a second, I had to set the layer height to .1mm, that meant that some stepping could occur and affect the clearance. It is for that reason that I decided to change the hole tolerance from 12 thou to 13 thou. At this point, I ran the 1-click several times, trying to find an orientation that gave the smallest angle possible while still being close to the 20mL limit as possible. This surprisingly took a bit longer than you might think since it seemed to be random, sometimes even setting it 20 degrees from the bed surface. Eventually, I did find an acceptable orientation. Below is one example of the the 1-click setup, I will show the actual 1-click print I decided on at the end of the Layer Height/Print Time/Volume section. For whatever reason the shaft also changed as well, so I had to reset it up after I found what I wanted.
+
+
+
+
+<img width="1516" height="1142" alt="NewSpool" src="https://github.com/user-attachments/assets/616b39b8-6300-4c12-beff-62be94a178d7" />
+
+
+
+### Layout
+Once I found the right orientations and support, I selected both parts and used the auto layout feature. I personally do not know how to correctly orientate on an SLA, I used this feature as a substitute for my lack of knowledge. This was recommended anyways so I it is not a big deal. 
+
+
+![Inserted Picture](Gifs/layout.gif)
+
+
+### Layer Height, Print Time, and Volume
+Finally, I had to decide on the layer height. During the time I was to print my parts, everyone decided to show up at the same time. At this point, I was also running out of time to be able to stay there because I had to rush home to finish the project I didn't have clear knowledge when it would expire. So when I asked around if anyone was immediately ready to print together, no one would not have been able to for at least another 20 minutes which is time I didn't have. At this point, I was there for so long, I had to ask one of the workers if he could put my parts in the wash/cure and take the pictures for me so that I could leave on time (which he had no problem helping me with). That meant that I could not wait for others, so I had to bite the bullet and put it at .1mm layer height so that I did not hog the machine and people would be able to use it quickly. The problem is, I was forced to put the spool at an angle to not allow cupping, and I had no idea or time to figure out how this .1mm stepping would impact the clearance. This is exactly when I rushed through the entire process again putting the clearance now at 13 thou. After running everything for the last time, I was met with a 1 hour and 21 minute print time and a 20.85 mL volume. I hope you can understand that I did not have the time to figure out how to lower the build volume by a very small .85 mL volume. I think this is perfectly acceptable considering that just makes a 9.4mm sided cube, not even the size of a lego.
+
+
+<img width="2727" height="1535" alt="image" src="https://github.com/user-attachments/assets/eae85810-d889-441e-92d5-bd4afc55c964" />
+
+
+
+
+
+
+## Post-Processing
 
 
 
