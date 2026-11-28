@@ -1,5 +1,3 @@
-# NOTE TO TA: I lost my caliper so I am wait for amazon to deliver a new one this Saturday. 
-
 # A10 – Lead Screw Translating System
 
 ## Research and Planning 
@@ -32,14 +30,6 @@ A major problem with using the handbook for creating fits is that this section o
 
 Actually, it may be possible to use Turning, shown in the book, as a somewhat comparable situation. Turning's grade ranges is from 7 to 13, this is pretty massive gap. What this likely means, is that there are a variety of variables in turning that need to be accounted a for to know what grade of turning their setup even has. That can includes, but not limited to, the specific machine, tooling, material, and setup used. SLA is even worse than that. Now in addition to its horrid dimensional accuracy, it has to be taken further into account printing issues like cupping or layer stepping and how curing a finished print further changes dimensional accuracy. When reading how to take these and the mentioned shrinking or expansion of the resin prints into account, it was clearly explained that there is not really a one size fits all grade or tolerances to choose from. The only way to figure it out was to do test prints like a coupon. 
 
-
-
-SHRINKING AND EXPANSION
-SHRINKING AND EXPANSION
-SHRINKING AND EXPANSION
-SHRINKING AND EXPANSION
-SHRINKING AND EXPANSION
-SHRINKING AND EXPANSION
 
 
 In order to find a idea of the range for the right fit, I decided to make a "coupon" test find what was needed.
@@ -118,7 +108,7 @@ In the end, they both came out well, I only noticed issues where the nipples of 
 Immediately, I jumped right into testing by simply inserting the shaft and twisting it around in each hole. Instantly, it became obvious that the 12 though clearance was by far the best one. It was able to spin freely like the others, but it had a much rougher time running freely along the shaft. Without measuring, it was clear I could actually decrease the clearance gap further for a better result.  
 
 ### Measuring
-When measuring, I was greatly surprised to find that the shaft was only a thou away from being exactly .25 inches. Ignoring the other holes since they were clearly unnecessary, I measured the 12 thou clearance hole to be ____. Possibly, solid cylindrical shafts have a lower tolerances than a hole for SLA? Either way this gave a clearance gap of ____. (when I tested weeks ago it was slightly above .85 thou, though I will try again once I get the caliper).
+When measuring, I was greatly surprised to find that the shaft was only a thou away from being exactly .25 inches. Ignoring the other holes since they were clearly unnecessary, I measured the 12 thou clearance hole to be .2509. Possibly, solid cylindrical shafts have a lower tolerances than a hole for SLA? Either way this gave a clearance gap of .9 thou. (when I tested weeks ago it was slightly above .85 thou, though I will try again once I get the caliper).
 
 
 
@@ -308,12 +298,6 @@ As just stated, printer calibration is one of the main factors that will affect 
 
 
 For surface finish, I cannot accurately give a statement because I am unable to measure the hole all the way through, but I do think that the fact there was stepping from the spool being angled had a slight affect on the fits. From a proxy, when touching the smooth parts of the spool and then the stepping on the top of it, I can clearly feel a big difference. The stepping very obviously has more friction. Then just by looking at it with a naked eye, you can see the stepping, this certainly means there is an affect on the dimensional accuracy that was not accounted for in the coupon test. These will have an affect on the fit, but how much can be very little or noticeable.
-
-Curing will always have an affect because_________________________________________
-
-
-SHRINKING AND EXPANSION
-SHRINKING AND EXPANSION
 
 
 ### How could you improve accuracy next time?
